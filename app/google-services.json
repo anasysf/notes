@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "129315120020",
+    "project_id": "notes-ismagi",
+    "storage_bucket": "notes-ismagi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129315120020:android:4e6b95dd5497ac1fa4a581",
+        "android_client_info": {
+          "package_name": "ma.ismagi.notes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDICKrOVMq1EJZK48Ry5rLC32c3GypQhUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

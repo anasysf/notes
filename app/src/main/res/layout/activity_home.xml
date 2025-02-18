@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true">
+
+    <!-- Main Content Area -->
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewNotes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"/>
+
+    <!-- Floating Action Button in the bottom-right -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:contentDescription="Add Note"
+        app:cornerRadius="16dp"
+        app:srcCompat="@drawable/ic_add_24px" />
+
+<!--    <TextView android:layout_height="wrap_content"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:text="+"-->
+<!--        android:elevation="6dp"-->
+<!--        android:textSize="18dp"-->
+<!--        android:textColor="#fff"-->
+<!--        app:layout_anchor="@id/fab_add_note"-->
+<!--        app:layout_anchorGravity="center"/>-->
+    <!-- Ensure you have a drawable named ic_add representing a plus icon -->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
