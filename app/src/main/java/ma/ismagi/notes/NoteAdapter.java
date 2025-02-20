@@ -13,11 +13,6 @@ import java.util.List;
 import ma.ismagi.notes.entities.Note;
 
 public class NoteAdapter extends RecyclerView.Adapter<NoteAdapter.NoteViewHolder> {
-
-    public interface OnNoteClickListener {
-        void onNoteClick(Note note);
-    }
-
     private List<Note> noteList;
     private OnNoteClickListener listener;
 

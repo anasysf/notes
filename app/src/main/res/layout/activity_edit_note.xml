@@ -54,14 +54,32 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <!-- Floating Action Button for saving note -->
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab_save_note"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="16dp"
-        app:srcCompat="@drawable/ic_check_24px"
-        android:contentDescription="@string/fab_content_description_save_note"/>
+        android:layout_gravity="bottom|end">
+
+        <!-- Floating Action Button for saving note -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_delete_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            app:srcCompat="@drawable/ic_delete_24px"
+            android:contentDescription="@string/fab_content_description_delete_note"/>
+
+        <!-- Floating Action Button for saving note -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_update_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            app:srcCompat="@drawable/ic_check_24px"
+            android:contentDescription="@string/fab_content_description_update_note"/>
+    </LinearLayout>
+
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
